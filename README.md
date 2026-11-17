@@ -1,15 +1,22 @@
-I design digital hardware in SystemVerilog, from simulation to FPGA and sky130 layout.
-My work is mostly in RISC-V, computer arithmetic and hardware security.
+## Hi there 👋
 
-| Project | What it is |
-|---|---|
-| [hades-v-plus](https://github.com/Sarkar22/hades-v-plus) | Five-stage RISC-V core with bit-manipulation and crypto extensions; runs FreeRTOS |
-| [sv-arith](https://github.com/Sarkar22/sv-arith) | Adders and multipliers, integer and floating point, placed and routed on sky130 |
-| [ascon-glitch-leakage](https://github.com/Sarkar22/ascon-glitch-leakage) | Masked Ascon S-box that looks secure in a zero-delay model but leaks in SPICE |
-| [shadow-lwe](https://github.com/Sarkar22/shadow-lwe) | Post-quantum LWE encryptor with a 126x smaller ciphertext |
-| [gate-level-netlist-simulator](https://github.com/Sarkar22/gate-level-netlist-simulator) | Gate-level simulator and static timing analyzer in Python |
-| [espresso-minimizer](https://github.com/Sarkar22/espresso-minimizer) | ESPRESSO logic minimizer in Python, with Verilog export |
+I'm **Emon Sarkar**, a digital hardware engineer. I write RTL in **SystemVerilog**, check it against reference models, and take it to **FPGA** and to **sky130 layout**.
 
-More: [cordic-activation](https://github.com/Sarkar22/cordic-activation) · [secure-edge-node](https://github.com/Sarkar22/secure-edge-node) · [zero-shadow-aead](https://github.com/Sarkar22/zero-shadow-aead) · [simon-unroll-study](https://github.com/Sarkar22/simon-unroll-study) · [aes](https://github.com/Sarkar22/aes) · [des](https://github.com/Sarkar22/des-pipelined-verilog) · [sha256](https://github.com/Sarkar22/sha256)
+My work sits where hardware meets arithmetic and security: **RISC-V cores**, **computer arithmetic** and **hardware for cryptography**. Where I can, I verify exhaustively or with formal proofs rather than with a handful of test vectors.
 
-**Tools:** SystemVerilog, Python · Verilator, Icarus Verilog, SymbiYosys · Vivado · OpenLane, ngspice
+Also: I take designs all the way to layout. More than 40 of mine are placed and routed on sky130, DRC- and LVS-clean.
+
+### 🧠 What I'm into
+- RISC-V cores and microarchitecture
+- Computer arithmetic: adders, multipliers, floating point
+- Hardware security: side channels, masking, lightweight and post-quantum crypto
+- Open-source ASIC flows (OpenLane on sky130)
+- Small EDA tools: simulation, static timing, logic minimization
+
+### 🏗️ Things I've built (selection)
+- [**hades-v-plus**](https://github.com/Sarkar22/hades-v-plus): RISC-V core extended from TU Graz's HaDes-V to RV32IMB plus scalar crypto. Runs FreeRTOS; its arithmetic units are formally proved.
+- [**sv-arith**](https://github.com/Sarkar22/sv-arith): parametric adders and multipliers, integer and floating point, with a 41-design area-delay sweep on sky130.
+- [**ascon-glitch-leakage**](https://github.com/Sarkar22/ascon-glitch-leakage): a masked Ascon S-box that looks secure in a zero-delay model but leaks in transistor-level SPICE.
+- [**shadow-lwe**](https://github.com/Sarkar22/shadow-lwe): post-quantum LWE encryptor that expands its mask on chip, for a 126x smaller ciphertext.
+- [**gate-level-netlist-simulator**](https://github.com/Sarkar22/gate-level-netlist-simulator) and [**espresso-minimizer**](https://github.com/Sarkar22/espresso-minimizer): a small EDA toolkit for gate-level simulation, static timing and logic minimization.
+- More: [**cordic-activation**](https://github.com/Sarkar22/cordic-activation), [**secure-edge-node**](https://github.com/Sarkar22/secure-edge-node), [**zero-shadow-aead**](https://github.com/Sarkar22/zero-shadow-aead) and [**simon-unroll-study**](https://github.com/Sarkar22/simon-unroll-study), plus classic [**AES**](https://github.com/Sarkar22/aes), [**DES**](https://github.com/Sarkar22/des-pipelined-verilog) and [**SHA-256**](https://github.com/Sarkar22/sha256) cores.
