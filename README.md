@@ -2,7 +2,7 @@
 
 I'm **Emon Sarkar**, a **PhD student** in computer hardware at the **University of Waterloo**.
 
-I work from **RTL** to **Linux**: RISC-V cores, SoC integration, computer arithmetic and DSP hardware, and hardware for real-time systems and security. I've designed the digital core of a frequency-measurement SoC for MEMS sensors and worked on encryption hardware for implantable neurostimulators.
+I work from **RTL** to **Linux**, on RISC-V cores and the SoCs around them. Along the way I've built arithmetic and DSP hardware, like the digital core of a frequency-measurement SoC for MEMS sensors, and security hardware, like encryption for implantable neurostimulators.
 
 Also: I take designs all the way to layout. More than 40 of mine are placed and routed on sky130, DRC- and LVS-clean.
 
