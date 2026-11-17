@@ -14,8 +14,8 @@ Also: I take designs all the way to layout. More than 40 of mine are placed and 
 - Computer arithmetic and DSP hardware
 - Hardware security: side channels, masking, lightweight and post-quantum crypto
 
-### 🔧 Platform I work on
-- [**he-soc**](https://github.com/Rodolfo-Pellizzoni-Lab/he-soc): an open-source multicore RISC-V SoC from the PULP project, with CVA6 cores and a coherent interconnect. I'm part of its development at Waterloo: I scaled our version from four to eight cores, brought up Linux on it (now 6.1), worked on its event monitoring units and central monitoring unit, and wrote much of its test suite.
+### 🔧 Research platform
+- [**he-soc**](https://github.com/Rodolfo-Pellizzoni-Lab/he-soc): an open-source multicore RISC-V SoC from the PULP project, with CVA6 cores and a coherent interconnect. At Waterloo, I lead the team that develops it as our research platform: from four to eight cores, from bare metal to Linux 6.1, with performance-monitoring hardware and a test suite that runs in simulation, on bare metal and under Linux.
 
 ### 🏗️ Things I've built (selection)
 - [**hades-v-plus**](https://github.com/Sarkar22/hades-v-plus): RISC-V core extended from TU Graz's HaDes-V to RV32IMB plus scalar crypto. Runs FreeRTOS; its arithmetic units are formally proved. Gold medal, RISC-V Community Challenge (TU Graz / The Linux Foundation).
